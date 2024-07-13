@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NIHILKNIGHT</title>
+</head>
+<body>
+    <h1>Technology</h1>
+    <ul>
+        
+            <li><a href="/theme/Technology/AI">AI</a></li>
+        
+            <li><a href="/theme/Technology/Web%20Development">Web Development</a></li>
+        
+    </ul>
+    <a href="/">Back</a>
+</body>
+</html>

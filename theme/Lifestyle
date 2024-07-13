@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NIHILKNIGHT</title>
+</head>
+<body>
+    <h1>Lifestyle</h1>
+    <ul>
+        
+            <li><a href="/theme/Lifestyle/Travel">Travel</a></li>
+        
+            <li><a href="/theme/Lifestyle/Health">Health</a></li>
+        
+    </ul>
+    <a href="/">Back</a>
+</body>
+</html>

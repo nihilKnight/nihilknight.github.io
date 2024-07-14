@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <meta charset="utf-8">
+    <title>NIHIL KNIGHT</title>
+    {% endblock %}
+</head>
+
+<body>
+
+    <h1>{{ theme }}/{{ subtheme }}/{{ subsubtheme }}/{{ article.name }}</h1>
+
+    {% block content %}{% endblock %}
+
+    <br><br>
+
+    <a href="{{ url_for('subsubtheme', theme=theme, subtheme=subtheme, subsubtheme=subsubtheme) }}">Back</a>
+
+</body>
+</html>

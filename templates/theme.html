@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NIHIL KNIGHT</title>
+</head>
+
+<body>
+
+    <h1>{{ theme }}</h1>
+
+    <ul>
+        {% for subtheme in subthemes %}
+        <li><a href="{{ url_for('subtheme', theme=theme, subtheme=subtheme) }}">{{ subtheme }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <a href="{{ url_for('home') }}">Back</a>
+
+</body>
+</html>
